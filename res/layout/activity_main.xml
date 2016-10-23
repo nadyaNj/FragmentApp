@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/container"
+            >
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="horizontal"
+            >
+        <Button android:layout_width="wrap_content"
+                android:text="Red"
+                android:layout_height="wrap_content"
+                android:onClick="changeToRed"/>
+        <Button android:layout_width="wrap_content"
+                android:text="Green"
+                android:layout_height="wrap_content"
+                android:onClick="changeToGreen"/>
+        <Button android:layout_width="wrap_content"
+                android:text="Yellow"
+                android:layout_height="wrap_content"
+                android:onClick="changeToYellow"/>
+        <Button android:layout_width="wrap_content"
+                android:text="Go to Red"
+                android:layout_height="wrap_content"
+                android:onClick="goToRed"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
